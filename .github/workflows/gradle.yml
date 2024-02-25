@@ -13,6 +13,8 @@ jobs:
         distribution: 'corretto'
     - name: Start selenoid
       uses: Xotabu4/selenoid-github-action@v2
+    - name: Change wrapper permissions
+      run: chmod +x ./gradlew
     - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
     - name: Get Allure history
       uses: actions/checkout@v2
@@ -36,4 +38,4 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
-        
+
