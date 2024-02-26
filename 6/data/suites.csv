@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Feb 26 16:11:57 GMT 2024","Mon Feb 26 16:12:04 GMT 2024","6955","","SelenideIssuesTest","","SelenideIssuesTest","shouldSearchIssuesWithSteps","shouldSearchIssuesWithSteps(String) Test with steps, issues 2095",""
+"passed","Mon Feb 26 16:11:51 GMT 2024","Mon Feb 26 16:11:57 GMT 2024","6159","","SelenideIssuesTest","","SelenideIssuesTest","shouldSearchIssuesWithSteps","shouldSearchIssuesWithSteps(String) Test with steps, issues 2094",""
+"passed","Mon Feb 26 16:12:04 GMT 2024","Mon Feb 26 16:12:06 GMT 2024","2208","","SelenideIssuesTest","","SelenideIssuesTest","shouldSearchIssuesWithStepsClass","shouldSearchIssuesWithStepsClass(String) Test with steps class, issues 2094",""
+"failed","Mon Feb 26 16:12:15 GMT 2024","Mon Feb 26 16:12:21 GMT 2024","6410","","SelenideIssuesTest","","SelenideIssuesTest","shouldSearchIssues","shouldSearchIssues(String) Should have selenide issues 2095",""
+"failed","Mon Feb 26 16:12:06 GMT 2024","Mon Feb 26 16:12:13 GMT 2024","6284","","SelenideIssuesTest","","SelenideIssuesTest","shouldSearchIssuesWithStepsClass","shouldSearchIssuesWithStepsClass(String) Test with steps class, issues 2095",""
+"passed","Mon Feb 26 16:12:13 GMT 2024","Mon Feb 26 16:12:15 GMT 2024","2218","","SelenideIssuesTest","","SelenideIssuesTest","shouldSearchIssues","shouldSearchIssues(String) Should have selenide issues 2094",""
