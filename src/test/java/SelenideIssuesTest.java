@@ -3,6 +3,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.Feature;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -19,8 +20,9 @@ public class SelenideIssuesTest {
     private static final String SEARCH_TEXT = "Selenide";
     private static final String SEARCH_RESULT = "selenide/selenide";
 
-    @BeforeEach
-    void setUp() {
+    @BeforeAll
+    static void setUp() {
+        Configuration.remote = "http://localhost:4444/wd/hub";
         SelenideLogger.addListener("allure", new AllureSelenide());
         Configuration.holdBrowserOpen = false;
         Configuration.headless = true;
